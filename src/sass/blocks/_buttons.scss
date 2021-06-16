@@ -1,0 +1,11 @@
+.btn {
+    width: 150px;
+    height: 36px;
+    border: none;
+    &_head {
+        background-color: #e8d8b6;
+    }
+    &_reg {
+        background-color: $main-color-2;
+    }
+}

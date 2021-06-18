@@ -1,0 +1,75 @@
+.reviews {
+    height: 420px;
+    background-color: #f8f3e9;
+    margin-bottom: 60px;
+}
+.reviews-slider {
+    height: 420px;
+    &_title {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: $main-color;
+        margin-top: 50px;
+    }
+    &_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 40px;
+        width: 540px;
+    }
+    &_photo {
+        img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    &_card {
+        height: 245px;
+        width: 390px;
+        background-color: #fff;
+        padding: 30px;
+    }
+    &_subtitle {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        color: $main-color;
+    }
+    &_data {
+        padding-top: 8px;
+        width: 120px;
+        height: 30px;
+        background-color: #bbbbbd;
+        font-weight: 300;
+        font-size: 10px;
+        text-align: center;
+        color: #fff;
+    }
+    &_descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+        color: $main-color;
+        margin-top: 10px;
+    }
+}
+
+.swiper-wrapper {
+    position: relative;
+}
+
+.reviews-slider .swiper-button-prev::after {
+    position: absolute;
+    color: $main-color-2;
+    top: 20px;
+    left: 100px;
+}
+.reviews-slider .swiper-button-next::after {
+    position: absolute;
+    color: $main-color-2;
+    top: 20px;
+    right: 100px;
+}

@@ -1,0 +1,17 @@
+.video {
+    height: 560px;
+    padding-bottom: 60px;
+    &__title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: $main-color;
+    }
+    &__promo {
+        margin: 0 auto;
+        width: 680px;
+        height: 430px;
+        margin-top: 30px;
+    }
+}

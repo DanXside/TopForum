@@ -43,6 +43,8 @@
         font-size: 14px;
         text-align: center;
         color: $main-color;
+        transition: all 0.6s ease;
+        @include hvr-inv;
     }
     &__subheader {
         height: 94px;
@@ -53,10 +55,12 @@
             height: 94px;
         }
         &_btn {
+            position: relative;
             font-weight: 400;
             font-size: 14px;
             text-align: center;
             color: #fff;
+            @include hvr;
         }
     }
     &__conference {

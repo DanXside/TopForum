@@ -4,8 +4,58 @@
     border: none;
     &_head {
         background-color: #e8d8b6;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: $main-color;
     }
     &_reg {
         background-color: $main-color-2;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    &_learn {
+        position: relative;
+        width: 120px;
+        height: 38px;
+        background-color: #d4c198;
+        transition: all 0.6s ease-in-out;
+        &:hover {
+            background-color: #f3dfb5;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            color: sandybrown;
+            transition: all 0.6s ease-in-out;
+        }
+        
+    }
+    &_sub {
+        position: relative;
+        background-color: $main-color;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 25px;
+            height: 100%;
+            background-color: rgba(#fff , 0.3);
+            filter: blur(2px);
+            transform: translateX(-30px);
+            display: none;
+        }
+        &:hover {
+            &:before {
+                display: block;
+                animation-name: move-light;
+                animation-duration: 0.5s;
+                animation-timing-function: ease;
+            }
+        }
     }
 }

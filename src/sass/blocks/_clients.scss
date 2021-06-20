@@ -1,0 +1,22 @@
+.clients {
+    height: 290px;
+    background-color: #f8f3e9;
+    padding-top: 40px;
+    &__title {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: $main-color;
+        margin-bottom: 30px;
+    }
+}
+.clients-slider {
+    height: 123px;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 180px;
+        height: 123px;
+    }
+}

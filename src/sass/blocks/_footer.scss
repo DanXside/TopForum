@@ -1,0 +1,131 @@
+.footer {
+    height: 390px;
+    background-color: $main-color;
+    padding: 50px 0 40px 0;
+    &__links {
+        min-height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        &_title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: $main-color-2;
+        }
+        &_list {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            list-style-type: none;
+            padding: 0;
+            margin-top: 5px;
+            margin-bottom: 0;
+            height: 100px;
+            a {
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    }
+    &__contacts {
+        position: relative;
+        min-height: 153px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -40px;
+            height: 210px;
+            width: 1px;
+            background-color: #464645;
+        }
+    }
+    &__address {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        &_title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: $main-color-2;
+            padding-bottom: 5px;
+        }
+        &_company {
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 12px;
+        }
+        &_add {
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            margin-top: 3px;
+        }
+    }
+    &__source {
+        a {
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+        }
+        &_site {
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+    &__follow-us {
+        display: flex;
+        justify-content: flex-end;
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: $main-color-2; 
+        }
+    }
+    &__rights {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        color: #fff;
+        margin-top: 40px;
+    }
+    &__logo-wrap {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 26px;
+        width: 260px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 10px;
+        color: #707070;
+    }
+}
+
+.divider {
+    width: 1140px;
+    height: 1px;
+    background-color: #464645;
+    margin: 0 auto;
+    margin-top: 90px;
+}

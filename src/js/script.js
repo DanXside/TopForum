@@ -21,4 +21,15 @@ new Swiper('.clients-slider', {
   slidesPerView: 6,
   loop: true,
   spaceBetween: 10,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    992: {
+      slidesPerView: 4,
+      spaceBetween: 15,
+    },
+  },
+
 });

@@ -6,6 +6,7 @@
 @import 'basic/variables';
 @import 'basic/mixins';
 @import 'basic/animation';
+@import 'basic/media';
 
 * {
     padding: 0;
@@ -21,4 +22,8 @@
 @import 'blocks/video';
 @import 'blocks/clients';
 @import 'blocks/footer';
+
+
+
+@import 'basic/media';
 

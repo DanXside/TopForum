@@ -118,3 +118,21 @@ nav {
     height: 56px;
     background-color: $main-color;
 }
+
+.hamburger {
+    display: none;
+    width: 30px;
+    height: 30px;
+    span {
+        display: block;
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+    }
+    span.long {
+        width: 25px;
+    }
+}
+.close-item {
+    display: none;
+}

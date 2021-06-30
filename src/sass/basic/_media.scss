@@ -165,3 +165,281 @@
         }
     } 
 }
+@media (max-width: 768px) {
+    .video {
+        height: 440px;
+        padding-bottom: 40px;
+        &__title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__promo {
+            width: 480px;
+            iframe {
+                height: 340px;
+            }
+        }
+    }
+    .divider {
+        width: 530px;
+    }
+    .future {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__item {
+            width: 300px;
+            margin-top: 20px;
+        }
+        .col-4 {
+            width: 300px;
+        }
+        &__title {
+            font-size: 14px;
+        }
+        &__descr {
+            width: 300px;
+        }
+    }
+    .reviews {
+        height: 420px;
+        margin-bottom: 30px;
+        .col-6 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .reviews-slider {
+        height: 420px;
+        &_title {
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &_item {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 330px;
+        }
+        &_card {
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &_subtitle {
+            font-size: 10px;
+        }
+        &_data {
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+        &_descr {
+            text-align: center;
+        }
+    }
+    .clients {
+        height: 260px;
+        padding-top: 30px;
+        &__title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .clients-slider {
+        height: 110px;
+        img {
+            width: 165px;
+            height: 110px;
+        }
+    }
+    .footer {
+        &__links {
+            &_title {
+                font-size: 14px;
+            }
+        }
+        &__address {
+            &_title {
+                font-size: 14px;
+            }
+        }
+        &__follow-us {
+            a {
+                font-size: 14px;
+            }
+        }
+        &__contacts {
+            &:before {
+                left: -26px;
+            }
+        }
+        &__rights {
+            font-size: 10px;
+        }
+    }
+    .promo {
+        position: relative;
+        &__link {
+            border-right: none;
+        }
+        &__menu {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            transition: 0.6s all;
+            padding: 0;
+            margin: 0;
+            height: 300px;
+            width: 150px;
+            background-color: $main-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            list-style-type: none;
+            &.active {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+        .close-item {
+            display: block;
+            position: absolute;
+            left: -100%;
+            transition: 0.6s all;
+            &.active {
+                left: 130px;
+            }      
+        }
+        &__btn {
+            display: none;
+        }
+        &__subheader {
+            &_btn {
+                display: none;
+            }
+            .row {
+                margin-top: 26px;
+            }
+        }
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 576px) {
+    .video {
+        height: 380px;
+        padding-bottom: 20px;
+        &__title {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__promo {
+            width: 280px;
+            iframe {
+                height: 300px;
+            }
+        }
+    }
+    .divider {
+        width: 310px;
+    }
+    .future {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        &__item {
+            width: 270px;
+            margin-top: 20px;
+        }
+        .col-4 {
+            width: 270px;
+            padding: 0;
+        }
+        &__title {
+            font-size: 14px;
+        }
+        &__descr {
+            width: 270px;
+        }
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            margin-top: 15px;
+            width: 150px;
+        }
+    }
+    .promo {
+        &__events {
+            display: none;
+        }
+        &__contacts {
+            display: none;
+        }
+        &__logo {
+            width: 80px;
+            height: 20px;
+            img {
+                width: 100%;
+            }
+        }
+        &__subheader {
+            .col-2 {
+                width: 70px;
+                height: 94px;
+                display: flex;
+                align-items: center;
+            }
+            .row {
+                margin-top: 0;
+            }
+        }
+        &__company-descr {
+            margin-top: 30px;
+            font-size: 12px;
+        }
+    }
+    .reviews {
+        height: 480px;
+    }
+    .reviews-slider {
+        &_item {
+            width: 140px;
+            height: 350px;
+        }
+        &_card {
+            width: 140px;
+            height: 270px;
+            padding: 15px;
+        }
+        &_descr {
+            font-size: 8px;
+        }
+        &_subtitle {
+            font-size: 8px;
+        }
+    }
+    .footer {
+        &__follow-us {
+            display: none;
+        }
+    }
+}

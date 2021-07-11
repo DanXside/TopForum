@@ -441,5 +441,13 @@
         &__follow-us {
             display: none;
         }
+        &__logo-wrap {
+            justify-content: flex-start;
+            align-items: flex-end;
+            margin-left: 40px;
+            width: 100px;
+            height: 40px;
+        }
+        
     }
 }
